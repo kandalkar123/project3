@@ -1,0 +1,108 @@
+*{
+    font-family: cursive
+}
+
+.display {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 150px;
+    
+}
+.display h1{
+    font-size: 35px;
+    color: rgb(251, 251, 248);
+}
+.temp_calculator {
+    width: 550px;
+
+    margin: 100px auto;
+    background-color: #f9f9f9;
+    border-radius: 35px;
+   
+    
+}
+form {
+    padding: 20px;
+    background-color: rgb(248, 245, 245);
+    height:auto;
+    border-radius: 30px;
+}
+h4.title {
+    background: #676767;
+    color: rgb(245, 222, 13);
+    text-align: center;
+    padding: 17px;
+    border-radius: 30px ;
+}
+.calculator_input {
+    float:  left;
+    border-radius: 30px;
+
+}
+
+.SC{
+    font-size: 25px;
+    color: rgb(251, 71, 11);
+    text-align: center ;
+}
+label {
+    font-size: 25px;
+    color: rgb(251, 71, 11);
+    border-radius: 20px;
+}
+
+output {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold ;
+    color: rgb(0, 0, 0);
+    border: none;
+    background: rgba(201, 182, 182, 0.736);
+    padding: 23px;
+    border-radius: 35px;
+}
+.result_area label {
+    width: 18%;
+    float: left;
+}
+.result_area input {
+    width: 82%;
+}
+.calculator_value label {
+    width: 36%;
+    float: left;
+}
+.calculator_value input {
+    width: 64%;
+}
+.calculator_value {
+    margin-bottom: 30px;
+}
+
+.calculator_input {
+    padding: 15px 23px;
+    margin-bottom: 30px;
+}
+
+.Answer {
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+button#convert {
+    float: right;
+}
+button.cal-btn {
+    width: 45%;
+    padding: 12px;
+    border: none;
+    background: #007df3;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 19px;
+}
+select {
+    padding: 5px;
+}
